@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Visual Challenge</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+
+<body>
+  <div class="container">
+    <section> <!-- status-nav bar section -->
+      <div class="status-bar"> <!-- status bar -->
+        <i class="fas fa-signal"></i>
+        <p class="GS">GS</p>
+        <i class="fas fa-wifi"></i>
+        <p class="status-bar-time">1:55 PM</p>
+        <i class="fas fa-battery-full"></i>
+        <p class="battery-percentage">100%</p>
+      </div>
+
+      <div class="nav-bar"> <!-- nav bar -->
+        <nav>
+            <i class="fas fa-chevron-left"></i>
+            <p class="back-text">Back</p>
+            <h1 class="title">Washington & State</h1>
+            <p class="option">Option</p>
+            <div style="clear: both;"></div>
+          </nav>
+      </div>
+    </section>
+
+    <section> <!-- map section -->
+      <div class="map-background"> <!-- map image -->
+        <div class="searchbox"> <!-- search bar -->
+          <i class="fas fa-search"></i>
+          <p class="search-text">Search</p>
+          <i class="fas fa-microphone"></i>
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bus-route-data"> <!-- bus list section -->
+      <div> <!-- Eastbound -->
+        <p class="bus-type">Eastbound</p>
+        <table>
+          <tr>
+            <td class="bus-number">60</td>
+            <td class="bus-time">2:00 PM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+            <td class="bus-station" colspan="3">Randolph/Harbor Dr.</td>
+          </tr>
+          <tr>
+            <td class="bus-number">124</td>
+            <td class="bus-time">2:33 PM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+            <td class="bus-station" colspan="3">Navy Pier</td>
+          </tr>
+        </table>
+      </div>
+
+      <div> <!-- Northbound -->
+        <p class="bus-type">Northbound</p>
+        <table>
+          <tr>
+            <td class="bus-number">151</td>
+            <td class="bus-time">2:45 PM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+              <td class="bus-station" colspan="3">Devon/Clark</td>
+          </tr>
+        </table>
+      </div>
+
+      <div> <!-- Southbound -->
+        <p class="bus-type">Southbound</p>
+        <table>
+          <tr>
+            <td class="bus-number">J14</td>
+            <td class="bus-time">3:00 PM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+              <td class="bus-station" colspan="3">103rd/Stony Island</td>
+          </tr>
+          <tr>
+            <td class="bus-number">124</td>
+            <td class="bus-time">3:15 PM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+            <td class="bus-station" colspan="3">Navy Pier</td>
+          </tr>
+        </table>
+      </div>
+
+      <div> <!-- Reroute -->
+        <p class="bus-type">Reroute</p>
+        <table>
+          <tr>
+            <td class="bus-number">6x</td>
+            <td class="bus-time">N/A</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+              <td class="bus-station" colspan="3">Jackson Park Express</td>
+          </tr>
+        </table>
+      </div>
+
+      <div> <!-- Out of Service -->
+        <p class="bus-type">Out of Service</p>
+        <table>
+          <tr>
+            <td class="bus-number">4</td>
+            <td class="bus-time">Resumes at 12:10 AM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+              <td class="bus-station" colspan="3">Cottage Grove</td>
+          </tr>
+          <tr>
+            <td class="bus-number">20</td>
+            <td class="bus-time">Resumes at 12:10 AM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+            <td class="bus-station" colspan="3">Madison</td>
+          </tr>
+          <tr>
+            <td class="bus-number">157</td>
+            <td class="bus-time">Resumes at 6:00 AM</td>
+            <td class="right-arrow" rowspan="2"><i class="fas fa-chevron-right"></i></td>
+          </tr>
+          <tr>
+            <td class="bus-station" colspan="3">Streeterville/Taylor</td>
+          </tr>
+        </table>
+      </div>
+
+    </section>
+
+    <section class="tab-bar"> <!-- tab bar section -->
+      <div> <!-- icons -->
+        <img src="images/icon1.png" class="stations-icon">
+        <img src="images/icon2.png" class="directions-icon">
+        <img src="images/icon3.png" class="settings-icon">
+        <div style="clear: both;"></div>
+      </div>
+      <div> <!-- text -->
+        <p class="stations-text">Stations</p>
+        <p class="directions-text">Directions</p>
+        <p class="settings-text">Settings</p>
+      </div>
+    </section>
+
+  </div>
+</body>
